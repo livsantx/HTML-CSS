@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+/*
+
+em HTML é id, em CSS é #
+em HTML é class, em CSS é .
+
+*/
+
+@font-face {
+    font-family: SundayMilk;
+    src: url(SundayMilk.ttf);
+}
+
+
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, #c7c79f, #70864c );
+}
+main {
+    background-color: #efefdd;
+    width: 600px;
+    margin: auto;
+    padding:10px;
+}
+h2#principal {
+    font-family: SundayMilk;
+   text-align: center;
+   font-weight: lighter;
+    color: #70864c;
+    font-size: 3em;
+    background-color: #70864c2c;
+}
+.basic {
+    color:  #0013013a;
+}
+.advanced {
+    color: #bebe7e;
+}
+h2 {
+    color: #0013018e;
+}
+p {
+    text-align: center;
+}

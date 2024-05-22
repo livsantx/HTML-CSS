@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias dinâmicas!</title>
+</head>
+<body>
+    <hr>
+    <h1>Imagem dinâmica</h1>
+    <hr>
+    <p>Tente abrir em diferentes dispositivos ou modifique o tamanho do navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/img.small.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/img.medium.png" type="image/png">
+        <img src="imagens/img.big.png" alt="Imagem grande">
+    </picture>
+
+    <h2>Teste</h2>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/paisagem-small.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/paisagem-medium.jpg" type="image/jpg">
+        <img src="imagens/paisagem-full.jpg" alt="Paisagem grande">
+    </picture>
+    <hr>
+    <h1>Aúdios</h1>
+    <hr>
+    <p>Ouça esse aúdio!</p>
+    <audio src="Colony - TrackTribe.mp3" controls autoplay></audio>
+    <p>Existe outra forma de aúdio que possibilitada outros formatos e esse está em looping.</p>
+    <audio preload="metadata"autoplay controls loop>
+        <source src="Colony - TrackTribe.mp3" type="audio/mp3">
+        <source src="Colony - TrackTribe.ogg" type="audio/ogg">
+        <source src="Colony - TrackTribe.wav" type="audio/wav">
+    </audio>
+    <hr>
+    <h1>Vídeos de hospedagem própria.</h1>
+    <hr>
+    <p>Você consegue baixar vídeos no Pexels.</p>
+    <video width="500px" controls autoplay>
+        <source src="video.cachorro.fofo.720.mp4" type="video/mp4">
+        <source src="video.cachorro.fofo.720.m4v" type="video/mp4">
+        <source src="video.cachorro.fofo.720.ogv" type="video/ogg">    
+    </video>
+    <hr>
+    <h1>Inserindo vídeos do youtube.</h1>
+    <hr>
+    <p>No próprio YouTube você consegue gerar um código HTML.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/_ZA44L_H1Zk?si=Yyifb8DcLOSxeLwS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+</body>
+</html>
