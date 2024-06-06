@@ -11,15 +11,27 @@
         }
         table {
             width: 500px;
+            position: relative;
 
         }
         td, th {
             border: 1px solid black;
             padding: 10px;
         }
+        tbody > tr:nth-child(even) {
+            background-color: lightblue;
+        }
+        tbody > tr:nth-child(odd) {
+            background-color: lightgrey;
+        }
         thead {
             background-color: gray;
             color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: gray ;
         }
         tfoot {
             background-color: gray;
@@ -48,16 +60,113 @@
                 TR,TD,TH
             TFOOT
                 TR,TD,TH
+            scope = correlaciona o título ou a coluna ou a linha (importante)
     -->
     <table>
         <caption>População dos estados da região Sudeste</caption>
         <thead>
             <tr>
-                <th>Estados</th>
-                <th>População</th>
+                <th scope="col">Estados</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 164 943</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="num">4 018 650</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 164 943</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="num">4 018 650</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 164 943</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="num">4 018 650</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 164 943</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="num">4 018 650</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 164 943</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="num">4 018 650</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 164 943</td>
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="num">4 018 650</td>
+            </tr>
             <tr>
                 <td>São Paulo</td>
                 <td class="num">45 919 049</td>
@@ -81,6 +190,13 @@
                 <td><strong>88 271 433</strong></td>
             </tr>
         </tfoot>
+        
     </table>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum nemo dolores asperiores enim, sunt molestias reprehenderit, provident aperiam architecto voluptatibus blanditiis error voluptate deserunt molestiae. Et voluptatem quo non eum. lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed exercitationem itaque explicabo nostrum. Expedita quam iste commodi reiciendis reprehenderit est eos cupiditate laudantium cumque alias? Id dolor nesciunt natus rerum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dicta facilis adipisci. Iste modi, itaque commodi, alias, blanditiis dolorem harum eos illum mollitia similique atque? Qui sit adipisci dicta explicabo.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum nemo dolores asperiores enim, sunt molestias reprehenderit, provident aperiam architecto voluptatibus blanditiis error voluptate deserunt molestiae. Et voluptatem quo non eum. lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed exercitationem itaque explicabo nostrum. Expedita quam iste commodi reiciendis reprehenderit est eos cupiditate laudantium cumque alias? Id dolor nesciunt natus rerum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dicta facilis adipisci. Iste modi, itaque commodi, alias, blanditiis dolorem harum eos illum mollitia similique atque? Qui sit adipisci dicta explicabo.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum nemo dolores asperiores enim, sunt molestias reprehenderit, provident aperiam architecto voluptatibus blanditiis error voluptate deserunt molestiae. Et voluptatem quo non eum. lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed exercitationem itaque explicabo nostrum. Expedita quam iste commodi reiciendis reprehenderit est eos cupiditate laudantium cumque alias? Id dolor nesciunt natus rerum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dicta facilis adipisci. Iste modi, itaque commodi, alias, blanditiis dolorem harum eos illum mollitia similique atque? Qui sit adipisci dicta explicabo.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum nemo dolores asperiores enim, sunt molestias reprehenderit, provident aperiam architecto voluptatibus blanditiis error voluptate deserunt molestiae. Et voluptatem quo non eum. lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed exercitationem itaque explicabo nostrum. Expedita quam iste commodi reiciendis reprehenderit est eos cupiditate laudantium cumque alias? Id dolor nesciunt natus rerum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dicta facilis adipisci. Iste modi, itaque commodi, alias, blanditiis dolorem harum eos illum mollitia similique atque? Qui sit adipisci dicta explicabo.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum nemo dolores asperiores enim, sunt molestias reprehenderit, provident aperiam architecto voluptatibus blanditiis error voluptate deserunt molestiae. Et voluptatem quo non eum. lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed exercitationem itaque explicabo nostrum. Expedita quam iste commodi reiciendis reprehenderit est eos cupiditate laudantium cumque alias? Id dolor nesciunt natus rerum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dicta facilis adipisci. Iste modi, itaque commodi, alias, blanditiis dolorem harum eos illum mollitia similique atque? Qui sit adipisci dicta explicabo.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum nemo dolores asperiores enim, sunt molestias reprehenderit, provident aperiam architecto voluptatibus blanditiis error voluptate deserunt molestiae. Et voluptatem quo non eum. lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed exercitationem itaque explicabo nostrum. Expedita quam iste commodi reiciendis reprehenderit est eos cupiditate laudantium cumque alias? Id dolor nesciunt natus rerum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dicta facilis adipisci. Iste modi, itaque commodi, alias, blanditiis dolorem harum eos illum mollitia similique atque? Qui sit adipisci dicta explicabo.</p>
 </body>
 </html>
