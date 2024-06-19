@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esportes favoritos</title>
+</head>
+<body>
+
+    <form action="cadastro.php">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isxmas" checked>
+            <label for="isxmas">Masculino</label>
+            <input type="radio" name="sexo" id="isxfem" checked>
+            <label for="isxfem">Feminino</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Esportes favoritos</legend>
+            <input type="checkbox" name="futebol" id="ifutebol">
+            <label for="ifutebol">Futebol</label><br>
+            <input type="checkbox" name="nataçao" id="inataçao">
+            <label for="inataçao">Natação</label><br>
+            <input type="checkbox" name="capoeira" id="icapoeira">
+            <label for="icapoeira">Capoeira</label><br>
+            <input type="checkbox" name="Dança" id="idança">
+            <label for="idança">Dança</label><br>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </fieldset>
+        <fieldset>
+            <label for="Região Sudeste">Estado</label>
+            <select name="Estado" id="iest">
+                <optgroup label="iest">
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Minais Gerais</option>
+                </optgroup>
+            </select>
+        </fieldset>
+    </form>
+
+</body>
+</html>
