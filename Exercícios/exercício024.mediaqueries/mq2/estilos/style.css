@@ -1,3 +1,21 @@
 @charset "UTF-8";
 
 /*Config. gerais*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: blueviolet;
+
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 0px rgb(53, 16, 88);
+    padding: ;
+}
